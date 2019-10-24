@@ -1,0 +1,165 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cabecera{
+	width: 100%;
+	height: auto;
+	background: black;
+	color: white;
+}
+
+.cabecera__centro{
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cabecera__btn{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.cabecera__btns{
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabecera__btns>div{
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.textField{
+	width: 600px;
+	display: flex;
+}
+
+.textField input{
+	width: 100%;
+}
+
+.cabecera__icono{
+	width: 40px;
+	height: 40px;
+	background: blue;
+}
+
+.menu{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.menu__centro{
+	width: 100%;
+	max-width: 1300px;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+.menu__item{
+	width: 130px;
+	height: 80px;
+	border: solid;
+}
+
+.submenu{
+	position: absolute;
+	right: 0;
+	left: 0;
+	transform: translateY(-100%);
+	z-index: -1;
+	margin: auto;
+	width: 100%;
+	max-width: 1300px;
+	height: 200px;
+	background: silver;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 0.3s ease-in;
+	will-change: transform;
+}
+
+.submenu--show{
+	transform: none;
+}
+
+.productos{
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 10px auto 0 auto;
+	border-top: 2px solid silver;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.productos__item{
+	padding: 10px 5px;
+	box-sizing: border-box;
+	width: 280px;
+	height: 350px;
+	border-radius: 10px;
+	box-shadow: 0 0 3px black;
+	margin: 10px 2px;
+}
+
+.productos__imagen{
+	width: 90%;
+	margin: auto;
+	height: 200px;
+}
+
+.productos__imagen img{
+	width: 100%;
+}
+
+.productos__nombre{
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.productos__precio{
+	width: 100%;
+	display: block;
+}
+.productos__cantidad{
+	width: 30px;
+}
+
+.productos__add{
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+	display: block;
+	background: linear-gradient(red,darkred);
+	margin-top: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	border-radius: 10px;	
+}
+
